@@ -96,7 +96,7 @@ int main() {
                db_nip[size] = nip_gen++;
                
 			   size++;
-               cout << "SUCCESSFULLY ADDED NEW EMPLOYEE! with NIP: " << size << endl;
+               cout << "SUCCESSFULLY ADDED NEW EMPLOYEE! with NIP: " << nip_gen << endl;
             } else {
                cout << "PANIC! database full!\n";
             }
