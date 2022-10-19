@@ -93,10 +93,10 @@ int main() {
                getline(cin, db_address[size]);
                cout << "Position : ";
                getline(cin, db_position[size]);
-               db_nip[size] = nip_gen++;
+               db_nip[size] = nip_gen;
                
-			   size++;
-               cout << "SUCCESSFULLY ADDED NEW EMPLOYEE! with NIP: " << nip_gen << endl;
+	       size++;
+               cout << "SUCCESSFULLY ADDED NEW EMPLOYEE! with NIP: " << nip_gen++ << endl;
             } else {
                cout << "PANIC! database full!\n";
             }
